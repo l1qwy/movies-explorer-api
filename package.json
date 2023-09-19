@@ -1,0 +1,11 @@
+{
+  "name": "movies-explorer",
+  "version": "1.0.0",
+  "description": "backend_for_movies-explorer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Korovin I",
+  "license": "ISC"
+}
