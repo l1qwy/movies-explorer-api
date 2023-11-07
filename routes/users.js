@@ -12,7 +12,7 @@ router.get('/me', getMe);
 router.patch('/me', celebrate({
   body: Joi.object().keys({
     email: Joi.string().required().pattern(emailRegex),
-    password: Joi.string().required().min(2).max(30),
+    password: Joi.string().min(2).max(30),
     name: Joi.string().required().min(2).max(30),
   }),
 }), editUserInfo);
